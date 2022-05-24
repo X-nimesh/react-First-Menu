@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #ffffff;
+  width: 98.5vw;
+}
+
+.nav-bar {
+  font-weight: 500;
+  width: 100%;
+  padding: 10px;
+  height: 50px;
+  background-color: #ffffff;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.nav-bar .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    display: none !important;
+    height: 100vh;
+    width: 10vw;
+  }
+  .nav-bar .icon {
+    display: block;
+    font-size: 25px;
+  }
+  .nav-bar .menu-Text {
+    display: none;
+  }
+}
+.nav-bar .left-Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  max-width: 400px;
+}
+@media screen and (max-width: 600px) {
+  .nav-bar .left-Nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35vh;
+  }
+}
+.nav-bar li {
+  list-style-type: none;
+  transition: transform 0.2s;
+}
+.nav-bar li:hover {
+  transform: scale(1.2);
+}
+.nav-bar li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+.nav-bar li a:hover {
+  color: rgb(88, 88, 255);
+}
+.nav-bar .logo {
+  height: 100%;
+}
+.nav-bar .settings-Main {
+  position: relative;
+  display: inline-block;
+  margin: auto 0;
+  color: aliceblue;
+  margin-right: 50px;
+}
+.nav-bar .settings-Main .settings-Logo img {
+  width: 40px;
+}
+.nav-bar .settings-Main .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  margin-left: -50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+.nav-bar .settings-Main .dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 40px;
+}
+.nav-bar .settings-Main .dropdown-toggle .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar .settings-Main .dropdown-toggle .dropdown-content a {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .nav-bar .settings-Main {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.mini-Menu {
+  display: flex;
+  width: 98vw;
+}
+.mini-Menu .icon {
+  font-size: 40px;
+  display: none;
+}
+.mini-Menu .top-bar-mobile {
+  background-color: #000000;
+  width: 20px;
+  color: black;
+}
+.mini-Menu .mini_Menu-full {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 20vw;
+}
+.mini-Menu .mini_Menu-full .top-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.mini-Menu .mini_Menu-full .settings-Main {
+  position: relative;
+  display: inline-block;
+  margin: auto 0;
+  color: aliceblue;
+  margin-right: 50px;
+}
+.mini-Menu .mini_Menu-full .settings-Main .settings-Logo img {
+  width: 40px;
+}
+.mini-Menu .mini_Menu-full .settings-Main .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  margin-left: -50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+.mini-Menu .mini_Menu-full .settings-Main .dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 40px;
+}
+.mini-Menu .mini_Menu-full .settings-Main .dropdown-toggle .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+.mini-Menu .mini_Menu-full .settings-Main .dropdown-toggle .dropdown-content a {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .mini-Menu .mini_Menu-full .settings-Main {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+.mini-Menu .mini_Menu-full * {
+  color: white;
+}
+@media screen and (min-width: 600px) {
+  .mini-Menu .mini_Menu-full {
+    display: none;
+  }
+}/*# sourceMappingURL=App.css.map */
