@@ -33,16 +33,16 @@ const NavBar = () => {
             <li>
                 
                 <AiOutlineHome className='icon'/>
-                <Link to="/task1">Task1</Link>
+                <Link to="/task1">Gandaki</Link>
                 {/* <Link  to="task1" className='menu-Text'>task1</Link> */}
             </li>
             <li>
                 <AiOutlineMail className='icon'/>
-                <Link  to="task2"className='menu-Text'>Task 2</Link>
+                <Link  to="task2"className='menu-Text'>bagmati</Link>
             </li>
             <li>
                 <DiAndroid className='icon'/>
-                <Link  to="task3"className='menu-Text'>Task 3</Link>
+                <Link  to="task3"className='menu-Text'>narayani</Link>
             </li>
         </ul>
         <div className="settings-Main" 

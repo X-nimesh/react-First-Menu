@@ -145,13 +145,17 @@ li{
             }
         }
         
-    .mini-Menu{
-        display: flex;
-        .icon{
-            font-size: 40px;
-            display: none;
-        }
-        width: 98vw;
+        .mini-Menu{
+            display: flex;
+            .icon{
+                font-size: 40px;
+                display: none;
+            }
+            width: 98vw;
+            @media screen and (min-width: $small) {
+                display: none;
+            }
+
         // padding: 10px 0px;
         // padding-left: 5px;
         // galss effetc

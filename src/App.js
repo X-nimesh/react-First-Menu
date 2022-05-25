@@ -9,11 +9,12 @@ import Task3 from './components/Task3';
 function App() {
   return (
     <div className="App">
+      
        <BrowserRouter>
         <MiniNavBar/>
         <NavBar/>
           <Routes>
-            <Route path='task1' element={<Task1/>}/>
+            <Route path='s' element={<Task1/>}/>
             <Route path='task2' element={<Task2/>}/>
             <Route path='task3' element={<Task3/>}/>
 

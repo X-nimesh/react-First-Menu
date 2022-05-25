@@ -9,7 +9,7 @@ const MiniNavBar = () => {
   const [click,setClick] = useState(false);
   const [clickSmall,setClickSmall] = useState(true);
   const [Small,setSmall] = useState(false);
-  const [hidenItem,setHidden] = useState(false);
+  const [hidenItem,setHidden] = useState(true);
   function clickChange(){
       if(window.screen.width < 600){
         setSmall(true);
